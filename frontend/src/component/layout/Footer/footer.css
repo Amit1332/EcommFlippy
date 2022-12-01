@@ -1,0 +1,29 @@
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top:10vmax;
+    padding:2vmax;
+    width:100%;
+    position: relative;
+
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(136, 128, 128);
+    font-family: sans-serif;
+
+}
+#appstore{
+    height:50px;
+    width:150px;
+}
+
+.rightFooter{
+    display: flex;
+    flex-direction: column;
+    
+}
+.rightFooter a{
+    text-decoration: none;
+    margin: 5px 0px;
+}
